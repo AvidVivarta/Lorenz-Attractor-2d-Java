@@ -38,6 +38,7 @@ public class Display extends Canvas implements Runnable {
 
 	public Display() {
 
+//		System.out.println(ANSICodes.ANSI_BLACK_ON_WHITE + "Created Display object" + ANSICodes.ANSI_RESET);
 		Dimension size = new Dimension(this.width * this.scale, this.height * this.scale);
 		this.setPreferredSize(size);
 		this.init();
