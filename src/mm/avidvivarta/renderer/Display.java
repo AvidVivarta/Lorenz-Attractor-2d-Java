@@ -49,7 +49,6 @@ public class Display extends Canvas implements Runnable {
 		this.frame = new JFrame();
 		this.screen = new Screen(this.width, this.height);
 		this.la = new LorenzAttractor(10, 40, 0.01, 0.001);
-
 	}
 
 	public synchronized void start() {
